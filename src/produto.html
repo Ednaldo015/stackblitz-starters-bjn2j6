@@ -1,6 +1,8 @@
 <html>
   <head>
-
+    <title>My app</title>
+    <link rel="stylesheet" href="global_styles.css">
+    
   </head>
   <body>
     <div class="container"></div>
@@ -10,13 +12,46 @@
       </div>
 
         <ul>
-            <li> <a href="#">Home</a></li>
+            <li> <a class="nav-link" routerLink="/produto.html">Home</a>
             <li> <a href="#">Produtos</a></li>
             <li> <a href="#">Contatos</a></li>
             <li> <a href="#">Sobre</a></li>
             <li> <a href="#">Login</a></li>
         </ul>
     </nav>
+    <!-- container-->
+    <div class="container">
+
+      <!-- lista de produtos-->
+      <div class="row row-cols-1 row-clos-md-3 g-4">
+
+          <!--produtos-->
+          <div class="col">
+              <div class="card text-center">
+                  <p class="card-text p-3"> NUTRIÇÃO E DIETETICA</p>
+                  <img src="https://imgs.ponto.com.br/1500056932/1xg.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">R$ 50,00</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+                <p class="card-text p-3"> NUTRIÇÃO PARA LEGOS</p>
+                <img src="https://imgs.ponto.com.br/3693920/1xg.jpg?imwidth=500" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">R$ 50,00</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+                <p class="card-text p-3"> NUTRIÇÃO COMPORTAMENTAL</p>
+                <img src="https://m.media-amazon.com/images/I/712yjgcIKRL.jpg"  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">R$ 50,00</h5>
+                </div>
+            </div>
+          </div>
   </body>
 </html>
-  
